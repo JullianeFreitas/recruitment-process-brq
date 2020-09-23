@@ -1,6 +1,6 @@
-# h2 Antes de qualquer execução, existem alguns requisitos que devem ser obedecidos:
+## Antes de qualquer execução, existem alguns requisitos que devem ser obedecidos:
 
-# h2 INSTRUÇÕES PARA CONFIGURAÇÃO
+### INSTRUÇÕES PARA CONFIGURAÇÃO
 
 1.  As informações no arquivo de configuração (/system/config/settings.yml) devem estar preenchidas.
 
@@ -15,7 +15,7 @@ save_evidences: define se as evidências serão salvas ou não (on/off)
 2. Você deve editar a variável de sistema **Path** e adicionar o diretório onde estão os drivers do Chrome e Firefox. Esses drivers se encontram na pasta **drivers** na raiz desse projeto.
 
 
-# h2 INSTRUÇÕES PARA EXECUÇÃO
+### INSTRUÇÕES PARA EXECUÇÃO
 
 1. Primeiramente devemos instalar as **gems** necessárias para executar o projeto. Para isso, basta rodar o comando abaixo na pasta raiz do projeto.
 
