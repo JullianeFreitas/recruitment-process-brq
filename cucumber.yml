@@ -1,0 +1,5 @@
+---
+default: -p pretty -p chrome -p retry
+pretty: --format pretty
+chrome: browser=chrome
+retry: --retry 2

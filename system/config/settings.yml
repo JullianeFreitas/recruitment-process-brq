@@ -1,0 +1,12 @@
+url: "http://automationpractice.com/index.php"
+log_file_path: "log/"
+project_code: "automation-practice"
+project_name: "Projeto de automação para processo seletivo da BRQ"
+save_evidences: off
+url_checkout: "http://automationpractice.com/index.php?controller=order"
+url_payment_by_check: "http://automationpractice.com/index.php?fc=module&module=cheque&controller=payment"
+url_payment_by_bank_wire: "http://automationpractice.com/index.php?fc=module&module=bankwire&controller=payment"
+url_payment: "http://automationpractice.com/index.php?controller=order&multi-shipping="
+url_shipping: "http://automationpractice.com/index.php?controller=order"
+url_address: "http://automationpractice.com/index.php?controller=order&step=1&multi-shipping=0"
+
