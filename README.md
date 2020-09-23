@@ -17,7 +17,13 @@ save_evidences: define se as evidências serão salvas ou não (on/off)
 
 ### INSTRUÇÕES PARA EXECUÇÃO
 
-1. Primeiramente devemos instalar as **gems** necessárias para executar o projeto. Para isso, basta rodar o comando abaixo na pasta raiz do projeto.
+1. Primeiramente devemos instalar as **gems** necessárias para executar o projeto. Primeiramente instalamos a gem **bundler** com o comando abaixo:
+
+```
+gem install bundler
+```
+
+Em seguida, vamos instalar todas as gems necessárias para rodar o projeto, ou seja, todas as gems existentes no arquivo Gemfile. Para isso, basta rodar o comando abaixo na pasta raiz do projeto.
 
 ```
 bundle install
