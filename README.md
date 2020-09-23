@@ -2,7 +2,7 @@
 
 ### INSTRUÇÕES PARA CONFIGURAÇÃO
 
-1.  As informações no arquivo de configuração (/system/config/settings.yml) devem estar preenchidas.
+1.  As informações no arquivo de configuração **(/system/config/settings.yml)** devem estar preenchidas.
 
 ```
 url: caminho inicial do sistema
@@ -28,6 +28,13 @@ bundle install
 ```
 cucumber features\store.feature
 ```
+
+O comando acima usa como padrão o driver do Google Chrome. Caso deseje rodar com o driver do Firefox, execute o comando abaixo:
+
+```
+cucumber features\store.feature browser=firefox
+```
+
 
 Versões utilizadas no desenvolvimento do projeto:
 
